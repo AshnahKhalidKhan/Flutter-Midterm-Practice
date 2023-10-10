@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
-class CodeLab1ButtonsSideBySide extends StatefulWidget
+class CodeLab1Buttons extends StatefulWidget
 {
-  const CodeLab1ButtonsSideBySide({super.key});
+  const CodeLab1Buttons({super.key});
 
   @override
-  State<CodeLab1ButtonsSideBySide> createState() => _CodeLab1ButtonsSideBySideState();
+  State<CodeLab1Buttons> createState() => _CodeLab1ButtonsState();
 }
 
-class _CodeLab1ButtonsSideBySideState extends State<CodeLab1ButtonsSideBySide>
+class _CodeLab1ButtonsState extends State<CodeLab1Buttons>
 {
 
   final _usernameController = TextEditingController();
