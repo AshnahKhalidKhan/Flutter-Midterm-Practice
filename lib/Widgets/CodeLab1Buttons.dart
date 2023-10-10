@@ -213,6 +213,7 @@ class _CodeLab1ButtonsSideBySideState extends State<CodeLab1ButtonsSideBySide>
           (
             onPressed: () {}, 
             label: Text("EXTENDED FLOATING ACTION BUTTON"),
+            icon: Icon(Icons.expand_circle_down_rounded),
           ),
           FloatingActionButton
           (
@@ -241,6 +242,22 @@ class _CodeLab1ButtonsSideBySideState extends State<CodeLab1ButtonsSideBySide>
             onPressed: () {},
             icon: Icon(Icons.calendar_month_rounded),  
             label: Text("FILLED BUTTON TONAL ICON"),
+          ),
+          Column
+          (
+            crossAxisAlignment: CrossAxisAlignment.center,
+             children:
+             [
+              Badge
+              (
+                backgroundColor: Colors.green,
+                smallSize: 30.0,
+                largeSize: 30.0,
+                offset: Offset(15.0, -5.0),
+                label: Icon(Icons.add, size: 20.0),
+                child: Icon(Icons.shopping_bag_rounded, size: 50.0),
+              ),
+            ]
           ),
         ],
       ),
