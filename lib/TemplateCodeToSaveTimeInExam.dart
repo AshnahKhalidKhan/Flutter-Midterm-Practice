@@ -66,7 +66,7 @@
 
 
 // // ---- Warna agar GridView agar build karna hai to (donon kay function ka naam same rakho to save time)
-// GridView _buildingGridsLikeInVideo(List<ModelClassKaNaam> itemsList)
+// GridView _buildingView(List<ModelClassKaNaam> itemsList)
 // {
 //   return GridView.builder
 //   (

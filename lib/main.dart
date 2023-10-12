@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_midterm_practice/Widgets/CodeLab1Buttons.dart';
 import 'package:flutter_midterm_practice/Widgets/CodeLab2Grids.dart';
+import 'package:flutter_midterm_practice/Widgets/GridPracticeCard.dart';
 import 'package:flutter_midterm_practice/Widgets/GridPracticeDummyJSONJustPictures.dart';
 import 'package:flutter_midterm_practice/Widgets/GridPracticeDummyJSONPhotos.dart';
 import 'package:flutter_midterm_practice/Widgets/GridPracticeJSONPlaceholderPhotos.dart';
+import 'package:flutter_midterm_practice/Widgets/GridPracticeModalBottomSheet.dart';
 import 'package:flutter_midterm_practice/Widgets/MidtermMockQuiz.dart';
 
 void main() 
@@ -24,8 +26,10 @@ class MainApp extends StatelessWidget
       // home: CodeLab2Grids(),
       // home: MidtermMockQuiz(),
       // home: GridPracticeDummyJSONPhotos(),
-      home: GridPracticeDummyJSONJustPictures(),
+      // home: GridPracticeDummyJSONJustPictures(),
       // home: GridPracticeJSONPlaceholderPhotos(),
+      // home: GridPracticeCard(),
+      home: GridPracticeModalBottomSheet(),
     );
   }
 }
