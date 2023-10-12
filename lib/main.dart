@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_midterm_practice/Widgets/CodeLab1Buttons.dart';
 import 'package:flutter_midterm_practice/Widgets/CodeLab2Grids.dart';
+import 'package:flutter_midterm_practice/Widgets/GridPracticeDummyJSONPhotos.dart';
 import 'package:flutter_midterm_practice/Widgets/MidtermMockQuiz.dart';
 
 void main() 
@@ -19,7 +20,8 @@ class MainApp extends StatelessWidget
     (
       // home: CodeLab1Buttons(),
       // home: CodeLab2Grids(),
-      home: MidtermMockQuiz(),
+      // home: MidtermMockQuiz(),
+      home: GridPracticeDummyJSONPhotos(),
     );
   }
 }
