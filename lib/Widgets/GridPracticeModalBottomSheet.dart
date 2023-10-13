@@ -141,6 +141,7 @@ GridView _buildingView(List<Gadgets> itemsList)
               (
                 child: Column
                 (
+                  mainAxisSize: MainAxisSize.min,
                   children: 
                   [
                     ListTile
